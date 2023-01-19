@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ed46bf-65c6-4cd5-b6a6-3bdba745394b" name="Changes" comment="fg">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/ArmorAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/ArmorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/HeroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Ranger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Rogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Warrior.java" afterDir="false" />
     </list>
@@ -23,7 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -45,7 +59,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +70,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="no.accelerate.Heroes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673871287978</updated>
-      <workItem from="1673871289291" duration="2427000" />
+      <workItem from="1673871289291" duration="18630000" />
     </task>
     <task id="LOCAL−00001" summary="fg">
       <created>1673871493555</created>
@@ -75,7 +100,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1673873296249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="fg">
+      <created>1673873740249</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1673873740249</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,7 +1,13 @@
 package no.accelerate.Heroes;
 
-public class Warrior {
-    protected double strength;
-    protected double dexterity;
-    protected double intelligence;
+public class Warrior extends Hero{
+    public Warrior(String name) {
+        super(name, 5, 2, 1);
+    }
+
+    public String increaseLevel() {
+        lvlAttributes.attributeIncrease(3,2,1);
+        return super.increaseLevel();
+    }
+
 }

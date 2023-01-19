@@ -1,7 +1,13 @@
 package no.accelerate.Heroes;
 
-public class Rogue {
-    protected double strength;
-    protected double dexterity;
-    protected double intelligence;
+public class Rogue extends Hero{
+    public Rogue(String name) {
+        super(name, 2, 6, 1);
+    }
+
+    public String increaseLevel() {
+        lvlAttributes.attributeIncrease(1,4,1);
+        return super.increaseLevel();
+    }
+
 }

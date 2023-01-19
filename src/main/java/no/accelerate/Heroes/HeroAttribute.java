@@ -1,5 +1,7 @@
 package no.accelerate.Heroes;
 
+import java.util.Objects;
+
 public class HeroAttribute {
 
     private int strength;
@@ -11,5 +13,10 @@ public class HeroAttribute {
         this.dexterity = dexterity;
         this.intelligence = intelligence;
     }
-}
 
+    public void attributeIncrease(int strength, int dexterity, int intelligence) {
+        this.strength++;
+        this.dexterity++;
+        this.intelligence++;
+    }
+}
