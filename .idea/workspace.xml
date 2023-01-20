@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ed46bf-65c6-4cd5-b6a6-3bdba745394b" name="Changes" comment="Hero">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/InvalidArmorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/InvalidWeaponException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673871287978</updated>
-      <workItem from="1673871289291" duration="23124000" />
+      <workItem from="1673871289291" duration="25118000" />
     </task>
     <task id="LOCAL−00001" summary="fg">
       <created>1673871493555</created>
@@ -102,7 +101,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1674120274702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Hero">
+      <created>1674199029280</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1674199029280</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

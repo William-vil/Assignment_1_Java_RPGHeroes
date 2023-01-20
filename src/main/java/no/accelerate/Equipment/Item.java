@@ -1,11 +1,12 @@
 package no.accelerate.Equipment;
 
+import no.accelerate.Equipment.Slot;
 public abstract class Item {
     private final String name;
     protected int requiredLevel;
-    protected String slot;
+    protected Slot slot;
 
-    public Item(String name, int requiredLevel, String slot) {
+    public Item(String name, int requiredLevel, Slot slot) {
         this.name = name;
         this.requiredLevel = requiredLevel;
         this.slot = slot;
@@ -20,7 +21,7 @@ public abstract class Item {
         return requiredLevel;
     }
 
-    public String getSlot() {
+    public Slot getSlot() {
         return slot;
     }
 }

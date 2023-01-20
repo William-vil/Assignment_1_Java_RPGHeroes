@@ -1,7 +1,7 @@
 package no.accelerate.Equipment;
 
 import no.accelerate.Equipment.WeaponType;
-import no.accelerate.Slot;
+import no.accelerate.Equipment.Slot;
 
 public class Weapon extends Item {
     private final double damage;

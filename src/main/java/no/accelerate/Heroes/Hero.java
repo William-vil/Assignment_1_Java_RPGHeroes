@@ -6,6 +6,10 @@ import no.accelerate.Equipment.InvalidWeaponException;
 import no.accelerate.Equipment.InvalidArmorException;
 import no.accelerate.Equipment.Item;
 import no.accelerate.Equipment.Slot;
+import no.accelerate.Equipment.ArmorType;
+import no.accelerate.Equipment.WeaponType;
+import no.accelerate.Heroes.HeroAttribute;
+
 
 import java.util.HashMap;
 
