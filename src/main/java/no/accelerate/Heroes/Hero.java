@@ -12,21 +12,26 @@ import no.accelerate.Heroes.HeroAttribute;
 
 
 import java.util.HashMap;
+import java.util.List;
 
 public abstract class Hero {
-    private String name;
+    private final String name;
     protected int level = 1;
 
     protected HeroAttribute lvlAttributes;
 
     private HashMap<Slot, Item> equipment = new HashMap<>();
-    protected List<validWeaponTypeList> validWeaponTypes;
-    protected List<validArmorTypeList> validArmorTypes;
+
+    protected List<WeaponType> validWeaponTypes;
+    protected List<ArmorType> validArmorTypes;
+
+
+
 
     public Hero(String name, int strength, int dexterity, int intelligence) {
         this.name = name;
         lvlAttributes = new HeroAttribute(strength, dexterity, intelligence);
-        initializeEquipment();
+        newEquipment();
     }
 
     /**
@@ -38,12 +43,11 @@ public abstract class Hero {
         return "Level up! " + name + "are now " + level + "!";
     }
 
-    public String totalAttributes() {
 
-    }
-
-    // Starting with empty slots
-    private void initializeEquipment() {
+    /**
+     * Method for a hero to have empty slots when created
+     */
+    private void newEquipment() {
         equipment = new HashMap<>();
         equipment.put(Slot.HEAD, null);
         equipment.put(Slot.BODY, null);
@@ -53,30 +57,44 @@ public abstract class Hero {
 
 
     // Equipping weapon
-    public String equip(Weapon weapon) throws InvalidWeaponException {
-        // Level too high
+    public String Equip(Weapon weapon) throws InvalidWeaponException {
+        // If statement to check if level is too high
         if(weapon.getRequiredLevel() > level)
-            throw new InvalidWeaponException("Weapon level too high!");
-        // Incorrect weapon type
-        if(!validWeaponTypes.contains(weapon.   getWeaponType()))
-            throw new InvalidWeaponException("Wrong weapon type!");
-        // Passed all guards
+            throw new InvalidWeaponException("Ilvl too high bro");
+        // If statement to check weapon type
+        if(!validWeaponTypes.contains(weapon.getWeaponType()))
+            throw new InvalidWeaponException("You can not use this weapon type");
+
         equipment.put(weapon.getSlot(), weapon);
-        return "Weapon equipped!";
+        return "Equipped new weapon";
     }
 
     // Equipping armor
-    public String equip(Armor armor) throws InvalidArmorException {
-        // Level too high
+    public String Equip(Armor armor) throws InvalidArmorException {
+        // If statement to check if level is too high
         if(armor.getRequiredLevel() > level)
-            throw new InvalidArmorException("Armor level too high!");
-        // Incorrect armor type
+            throw new InvalidArmorException("Ilvl is too high bro");
+        // If statement to check armor type
         if(!validArmorTypes.contains(armor.getArmorType()))
-            throw new InvalidArmorException("Wrong armor type!");
-        // Passed all guards
+            throw new InvalidArmorException("This is the wrong armor");
+
         equipment.put(armor.getSlot(), armor);
-        return "Armor equipped!";
+        return "Equipped new armor";
     }
+
+    public void Damage() {
+
+    }
+
+    public void totalAttributes() {
+
+    }
+
+    public void Display() {
+
+    }
+
+
 
 
     // Generated stuff

@@ -12,7 +12,6 @@ public class HeroAttribute {
     private int dexterity = 0;
     private int intelligence = 0;
 
-    private String
 
     /**
      * Constructor for the HeroAttribute class
@@ -27,14 +26,11 @@ public class HeroAttribute {
      * Increases the heroes attributes
      */
     public void attributeIncrease(int strength, int dexterity, int intelligence) {
-        this.strength++;
-        this.dexterity++;
-        this.intelligence++;
+        this.strength += strength;
+        this.dexterity += dexterity;
+        this.intelligence += intelligence;
     }
 
-    public String getHeroDamage() {
-
-    }
 
     // Generated stuff
     @Override

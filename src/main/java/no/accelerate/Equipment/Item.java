@@ -1,9 +1,8 @@
 package no.accelerate.Equipment;
 
-import no.accelerate.Equipment.Slot;
 
 /**
- * A class for
+ * A class to get items for a hero
  */
 public abstract class Item {
     private final String name;

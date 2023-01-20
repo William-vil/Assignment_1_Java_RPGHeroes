@@ -27,6 +27,7 @@ public class Armor extends Item {
     }
 
     public ArmorType getArmorType() {
+
         return armorType;
     }
 }

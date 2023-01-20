@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ed46bf-65c6-4cd5-b6a6-3bdba745394b" name="Changes" comment="Hero">
-      <change afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/WeaponDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/MageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/RogueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/ArmorAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/ArmorAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/ArmorAttribute.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/WeaponDamage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Ranger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Rogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/HeroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -63,6 +67,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,6 +79,60 @@
       <recent name="no.accelerate.Heroes" />
     </key>
   </component>
+  <component name="RunManager" selected="Gradle.RogueTest.Rogue_testingIfNameIsCorrect">
+    <configuration name="MageTest.Mage_testingIfNameIsCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;no.accelerate.Heroes.MageTest.Mage_testingIfNameIsCorrect&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RogueTest.Rogue_testingIfNameIsCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;no.accelerate.Heroes.RogueTest.Rogue_testingIfNameIsCorrect&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RogueTest.Rogue_testingIfNameIsCorrect" />
+        <item itemvalue="Gradle.MageTest.Mage_testingIfNameIsCorrect" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673871287978</updated>
       <workItem from="1673871289291" duration="32790000" />
+      <workItem from="1674235160275" duration="10776000" />
     </task>
     <task id="LOCAL−00001" summary="fg">
       <created>1673871493555</created>

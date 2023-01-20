@@ -4,7 +4,7 @@ import no.accelerate.Equipment.WeaponType;
 import no.accelerate.Equipment.Slot;
 
 /**
- * A class for weapons to be put on heroes.
+ * A class for weapon behaviour when put on heroes.
  */
 public class Weapon extends Item {
     private final double baseDamage;
