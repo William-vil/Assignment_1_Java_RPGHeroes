@@ -1,5 +1,4 @@
 package no.accelerate.Equipment;
 
-public class ArmorAttribute {
-
+public class WeaponDamage {
 }

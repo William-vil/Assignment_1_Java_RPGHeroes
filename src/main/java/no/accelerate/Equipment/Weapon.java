@@ -3,22 +3,29 @@ package no.accelerate.Equipment;
 import no.accelerate.Equipment.WeaponType;
 import no.accelerate.Equipment.Slot;
 
+/**
+ * A class for weapons to be put on heroes.
+ */
 public class Weapon extends Item {
-    private final double damage;
-    private final double speed;
+    private final double baseDamage;
+    private final double weaponDamage;
     private final WeaponType weaponType;
 
-    public Weapon(String name, int requiredLevel, WeaponType weaponType, double damage, double speed) {
+    /**
+     * Constructor for the weapon class
+     */
+    public Weapon(String name, int requiredLevel, WeaponType weaponType, double baseDamage, double weaponDamage) {
         super(name, requiredLevel, Slot.WEAPON);
-        this.damage = damage;
-        this.speed = speed;
+        this.baseDamage = baseDamage;
+        this.weaponDamage = weaponDamage;
         this.weaponType = weaponType;
     }
 
-    public double getDps() {
-        return damage * speed;
+    public double getHeroDamage() {
+        return baseDamage * (1 * weaponDamage/100);
     }
 
+    // Generated stuff
     public WeaponType getWeaponType() {
         return weaponType;
     }

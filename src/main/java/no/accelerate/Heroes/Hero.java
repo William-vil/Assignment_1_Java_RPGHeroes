@@ -18,7 +18,7 @@ public abstract class Hero {
     protected int level = 1;
 
     protected HeroAttribute lvlAttributes;
-    //protected String equipment; // Vet ikke hvordan denne skal være enda
+
     private HashMap<Slot, Item> equipment = new HashMap<>();
     protected List<validWeaponTypeList> validWeaponTypes;
     protected List<validArmorTypeList> validArmorTypes;
@@ -28,12 +28,21 @@ public abstract class Hero {
         lvlAttributes = new HeroAttribute(strength, dexterity, intelligence);
         initializeEquipment();
     }
+
+    /**
+     * @return
+     * A method used to level up a character
+     */
     public String increaseLevel() {
         level += 1;
         return "Level up! " + name + "are now " + level + "!";
     }
 
+    public String totalAttributes() {
 
+    }
+
+    // Starting with empty slots
     private void initializeEquipment() {
         equipment = new HashMap<>();
         equipment.put(Slot.HEAD, null);
@@ -42,18 +51,21 @@ public abstract class Hero {
         equipment.put(Slot.WEAPON, null);
     }
 
+
+    // Equipping weapon
     public String equip(Weapon weapon) throws InvalidWeaponException {
         // Level too high
         if(weapon.getRequiredLevel() > level)
             throw new InvalidWeaponException("Weapon level too high!");
         // Incorrect weapon type
-        if(!validWeaponTypes.contains(weapon.getWeaponType()))
+        if(!validWeaponTypes.contains(weapon.   getWeaponType()))
             throw new InvalidWeaponException("Wrong weapon type!");
         // Passed all guards
         equipment.put(weapon.getSlot(), weapon);
         return "Weapon equipped!";
     }
 
+    // Equipping armor
     public String equip(Armor armor) throws InvalidArmorException {
         // Level too high
         if(armor.getRequiredLevel() > level)

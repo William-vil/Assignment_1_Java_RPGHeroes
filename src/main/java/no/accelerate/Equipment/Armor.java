@@ -4,19 +4,26 @@ import no.accelerate.Equipment.ArmorType;
 import no.accelerate.Heroes.HeroAttribute;
 import no.accelerate.Equipment.Slot;
 
+/**
+ * A class for armor to be put on heroes.
+ */
 public class Armor extends Item {
-    private final HeroAttribute bonusAttributes;
+    private final HeroAttribute armorAttributes;
     private final ArmorType armorType;
 
+
+    /**
+     * Constructor for the armor class
+     */
     public Armor(String name, Slot slot, int requiredLevel, ArmorType armorType, int bonusStrength, int bonusDexterity, int bonusIntelligence) {
-        super(name, slot, requiredLevel);
+        super(name, requiredLevel, slot);
         this.armorType = armorType;
-        bonusAttributes = new HeroAttribute(bonusStrength, bonusDexterity, bonusIntelligence);
+        armorAttributes = new HeroAttribute(bonusStrength, bonusDexterity, bonusIntelligence);
     }
 
-
-    public HeroAttribute getBonusAttributes() {
-        return bonusAttributes;
+    // Generated stuff
+    public HeroAttribute getArmorAttributes() {
+        return armorAttributes;
     }
 
     public ArmorType getArmorType() {
