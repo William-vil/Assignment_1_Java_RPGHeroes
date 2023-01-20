@@ -3,6 +3,8 @@ package no.accelerate.Heroes;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.PrimitiveIterator;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MageTest {
@@ -25,6 +27,26 @@ class MageTest {
     }
 
     @Test
-    void increaseLevelMage() {
+    public void shouldStartWithCorrectAttributesMage() {
+        // Arrange
+        HeroAttribute expected = new HeroAttribute(1, 1, 8);
+        // Act
+        HeroAttribute actual = mage.getLvlAttributes();
+        // Assert
+        assertEquals(expected, actual);
     }
+
+
+
+    @Test
+    public void shouldIncreaseAttributesCorrectlyWhenLvlUpMage() {
+        // Arrange
+        HeroAttribute expected = new HeroAttribute(1 + 1,1 + 1,8 + 5);
+        // Act
+        mage.increaseLevel();
+        HeroAttribute actual = mage.getLvlAttributes();
+        // Assert
+        assertEquals(expected, actual);
+    }
+
 }

@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Warrior extends Hero{
+    /**
+     * Creates warrior
+     */
     public Warrior(String name) {
         super(name, 5, 2, 1);
         int damageWarrior = 1;
@@ -14,6 +17,9 @@ public class Warrior extends Hero{
         validArmorTypes = defineValidArmorTypes();
     }
 
+    /**
+     * Increases warrior attributes
+     */
     public String increaseLevel() {
         lvlAttributes.attributeIncrease(3,2,1);
         return super.increaseLevel();

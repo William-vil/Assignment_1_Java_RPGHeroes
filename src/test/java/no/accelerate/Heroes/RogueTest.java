@@ -25,10 +25,23 @@ class RogueTest {
     }
 
     @Test
-    void defineValidWeaponTypes() {
+    public void shouldStartWithCorrectAttributesRogue() {
+        // Arrange
+        HeroAttribute expected = new HeroAttribute(2, 6, 1);
+        // Act
+        HeroAttribute actual = rogue.getLvlAttributes();
+        // Assert
+        assertEquals(expected, actual);
     }
 
     @Test
-    void defineValidArmorTypes() {
+    public void shouldIncreaseAttributesCorrectlyWhenLvlUpRogue() {
+        // Arrange
+        HeroAttribute expected = new HeroAttribute(2 + 1,6 + 4,1 + 1);
+        // Act
+        rogue.increaseLevel();
+        HeroAttribute actual = rogue.getLvlAttributes();
+        // Assert
+        assertEquals(expected, actual);
     }
 }

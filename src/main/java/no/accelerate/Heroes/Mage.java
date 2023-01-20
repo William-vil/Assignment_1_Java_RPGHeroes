@@ -1,6 +1,5 @@
 package no.accelerate.Heroes;
 
-import no.accelerate.Equipment.Armor;
 import no.accelerate.Equipment.ArmorType;
 import no.accelerate.Equipment.WeaponType;
 

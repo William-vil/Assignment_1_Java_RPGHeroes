@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ed46bf-65c6-4cd5-b6a6-3bdba745394b" name="Changes" comment="Hero">
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/MageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/RogueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/MageTestEquip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/RangerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/WarriorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/ArmorAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Equipment/WeaponDamage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/HeroAttribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Ranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Rogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/accelerate/Heroes/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/HeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/MageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/MageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/RogueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/no/accelerate/Heroes/RogueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,8 +81,8 @@
       <recent name="no.accelerate.Heroes" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RogueTest.Rogue_testingIfNameIsCorrect">
-    <configuration name="MageTest.Mage_testingIfNameIsCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MageTestEquip.MageShouldReturnInvalidEquipLevelMessageForArmor">
+    <configuration name="MageTestEquip.MageShouldReturnCorrectEquipMessageForArmor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -93,7 +95,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;no.accelerate.Heroes.MageTest.Mage_testingIfNameIsCorrect&quot;" />
+            <option value="&quot;no.accelerate.Heroes.MageTestEquip.MageShouldReturnCorrectEquipMessageForArmor&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -103,7 +105,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RogueTest.Rogue_testingIfNameIsCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MageTestEquip.MageShouldReturnInvalidEquipLevelMessageForArmor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +118,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;no.accelerate.Heroes.RogueTest.Rogue_testingIfNameIsCorrect&quot;" />
+            <option value="&quot;no.accelerate.Heroes.MageTestEquip.MageShouldReturnInvalidEquipLevelMessageForArmor&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MageTestEquip.MageShouldReturnInvalidEquipMessageForArmor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;no.accelerate.Heroes.MageTestEquip.MageShouldReturnInvalidEquipMessageForArmor&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MageTestEquip.MageThrowInvalidWeaponExceptionForEquipment" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;no.accelerate.Heroes.MageTestEquip.MageThrowInvalidWeaponExceptionForEquipment&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MageTestEquip.MageThrowInvalidWeaponExceptionForTooHighLevel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;no.accelerate.Heroes.MageTestEquip.MageThrowInvalidWeaponExceptionForTooHighLevel&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,8 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RogueTest.Rogue_testingIfNameIsCorrect" />
-        <item itemvalue="Gradle.MageTest.Mage_testingIfNameIsCorrect" />
+        <item itemvalue="Gradle.MageTestEquip.MageShouldReturnInvalidEquipLevelMessageForArmor" />
+        <item itemvalue="Gradle.MageTestEquip.MageShouldReturnInvalidEquipMessageForArmor" />
+        <item itemvalue="Gradle.MageTestEquip.MageShouldReturnCorrectEquipMessageForArmor" />
+        <item itemvalue="Gradle.MageTestEquip.MageThrowInvalidWeaponExceptionForTooHighLevel" />
+        <item itemvalue="Gradle.MageTestEquip.MageThrowInvalidWeaponExceptionForEquipment" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673871287978</updated>
       <workItem from="1673871289291" duration="32790000" />
-      <workItem from="1674235160275" duration="10776000" />
+      <workItem from="1674235160275" duration="16504000" />
     </task>
     <task id="LOCAL−00001" summary="fg">
       <created>1673871493555</created>
@@ -180,7 +254,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1674201117742</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Hero">
+      <created>1674246383727</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1674246383727</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
