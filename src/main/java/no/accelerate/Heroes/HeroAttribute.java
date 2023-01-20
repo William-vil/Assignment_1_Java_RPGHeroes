@@ -19,4 +19,17 @@ public class HeroAttribute {
         this.dexterity++;
         this.intelligence++;
     }
+
+    //
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof HeroAttribute that)) return false;
+        return strength == that.strength && dexterity == that.dexterity && intelligence == that.intelligence;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(strength, dexterity, intelligence);
+    }
 }
